@@ -1,5 +1,7 @@
 # Hybrid: A dark colorscheme for emacs
 
+Based off the ![similarly-named colorscheme for vim](https://github.com/w0ng/vim-hybrid).
+
 ![Preview](https://github.com/evanbergeron/hybrid-emacs/raw/master/scrot.png)
 
 ### Installation
