@@ -1,9 +1,9 @@
 ;;; hybrid-theme.el --- A low contrast color theme for Emacs.
 
-;; Copyright (C) 2017 Hybrid Bergeron
+;; Copyright (C) 2017 Evan Bergeron
 
-;; Author: Hybrid Bergeron <bergeronej@gmail.com>
-;; URL: http://github.com/hybridbergeron/hybrid-emacs
+;; Author: Evan Bergeron <bergeronej@gmail.com>
+;; URL: http://github.com/evanbergeron/hybrid-emacs
 ;; Version: 0.1
 
 ;; This program is free software; you can redistribute it and/or modify
@@ -21,7 +21,7 @@
 
 ;;; Commentary:
 
-;; A port of the popular Vim theme Zenburn for Emacs 24+, built on top
+;; A port of the popular Vim theme Hybrid for Emacs 24+, built on top
 ;; of the new built-in theme support in Emacs 24.
 
 ;;; Credits:
@@ -29,6 +29,10 @@
 ;; The code is essentially a gradually-more-reskinned-zenburn, so much
 ;; credit is due to Bozhidar Batsov, Jani Nurminen, and every
 ;; contributor to the zenburn theme.
+
+;; TODO fix evil-mode visual highlighting
+;; TODO highlight numeral literals red
+;; TODO get rid of all the GUI green text - replace with blue or gray
 
 ;;; Code:
 
