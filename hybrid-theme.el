@@ -30,7 +30,6 @@
 ;; credit is due to Bozhidar Batsov, Jani Nurminen, and every
 ;; contributor to the zenburn theme.
 
-;; TODO fix evil-mode visual highlighting
 ;; TODO highlight numeral literals red
 ;; TODO get rid of all the GUI green text - replace with blue or gray
 
@@ -76,7 +75,8 @@
     ("hybrid-blue-3"   . "#81a2be")
     ("hybrid-blue-4"   . "#00005f")
     ("hybrid-blue-5"   . "#00005f")
-    ("hybrid-comment"  ."#6c7a80")
+    ("hybrid-comment"  . "#6c7a80")
+    ("hybrid-region"   . "#434c51")
     ("hybrid-magenta"  . "#b294bb"))
   "List of Hybrid colors.
 Each element has the form (NAME . HEX).
@@ -166,7 +166,7 @@ Also bind `class' to ((class color) (min-colors 89))."
      ((t (:foreground ,hybrid-green-1
                       :background ,hybrid-bg-05
                       :box (:line-width -1 :style released-button)))))
-   `(region ((,class (:background ,hybrid-bg-1))
+   `(region ((,class (:background ,hybrid-region))
              (t :inverse-video t)))
    `(secondary-selection ((t (:background ,hybrid-bg+2))))
    `(trailing-whitespace ((t (:background ,hybrid-red))))
