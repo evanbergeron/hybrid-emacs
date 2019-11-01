@@ -158,13 +158,17 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(minibuffer-prompt ((t (:foreground ,hybrid-yellow))))
    `(mode-line
      ((,class (:foreground ,hybrid-green+1
-                           :background ,hybrid-bg-1
+                           :background ,hybrid-region
+                           :overline ,hybrid-region
+                           :underline ,hybrid-region
                            :box (:line-width -1 :style released-button)))
       (t :inverse-video t)))
    `(mode-line-buffer-id ((t (:foreground ,hybrid-yellow :weight bold))))
    `(mode-line-inactive
      ((t (:foreground ,hybrid-green-1
                       :background ,hybrid-bg-05
+                      :overline ,hybrid-region
+                      :underline ,hybrid-region
                       :box (:line-width -1 :style released-button)))))
    `(region ((,class (:background ,hybrid-region))
              (t :inverse-video t)))
